@@ -1,39 +1,135 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+```markdown
+# 🔧 ShadCN Dashboard (Next.js App Router)
 
-## Getting Started
+A modern and responsive admin dashboard built using **Next.js App Router**, **ShadCN UI**, and **TailwindCSS**, showcasing analytics, post listings, and dynamic charts.
 
-First, run the development server:
+## 📸 Preview
+
+### Dashboard Summary
+![Dashboard Summary](./public/dashboard-summary.png)
+
+### Analytics Section
+![Analytics Section](./public/analytics.png)
+
+---
+
+## 🚀 Features
+
+- 📁 Post, Category, User & Comment summaries with icons (Lucide)
+- 📊 Line charts showing traffic trends
+- 📄 Dynamic list of blog posts with authors and dates
+- 📚 Modular components for easy scalability
+- 💅 Styled with TailwindCSS + ShadCN UI
+- ⚙️ Sidebar & Top Navbar layout system
+
+---
+
+![image](https://github.com/user-attachments/assets/9d0da842-cf34-45fc-83f4-ae581c7aa509)
+
+![image](https://github.com/user-attachments/assets/45f10625-2a92-4b91-acb5-1f464bf3f03e)
+
+
+![image](https://github.com/user-attachments/assets/9cf2fc78-da1a-4161-84ab-3ba3542e60b7)
+
+
+![image](https://github.com/user-attachments/assets/c99da7d3-5e1a-4737-8a50-0bfc444489a6)
+
+
+## 🧱 Tech Stack
+
+- **Framework**: [Next.js 14 (App Router)](https://nextjs.org/docs/app)
+- **UI Library**: [ShadCN UI](https://ui.shadcn.com)
+- **Styling**: Tailwind CSS
+- **Icons**: [Lucide Icons](https://lucide.dev)
+- **Font**: Geist Sans & Geist Mono
+
+---
+
+## 🗂️ Project Structure
+
+```
+.
+├── app/
+│   └── layout.tsx          # Root layout with NavBar and Sidebar
+│   └── page.tsx            # Main dashboard page
+├── components/
+│   └── ui/baseComponents/
+│       ├── analyticsData.tsx
+│       ├── dasboardCards.tsx
+│       ├── navBar.tsx
+│       ├── post.tsx
+│       ├── sideBar.tsx
+├── data/
+│   └── postData.ts         # Post list data
+├── public/
+│   └── dashboard-summary.png
+│   └── analytics.png
+├── styles/
+│   └── globals.css         # Global styles
+```
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/shadcn-dashboard.git
+cd shadcn-dashboard
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Components Overview
 
-## Learn More
+### 🔹 `<CardDemo />`
+Renders stats cards with an icon, title, and count (e.g., Posts, Categories, etc.)
 
-To learn more about Next.js, take a look at the following resources:
+### 🔹 `<Post />`
+Displays a list of posts with title, author, and date + Edit button
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🔹 `<AnalyticsDataComponent />`
+Line chart to visualize data trends over time
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✨ Customization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- To update the post data, edit `data/postData.ts`
+- To modify layout, change `components/ui/baseComponents/navBar.tsx` or `sideBar.tsx`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# ShadcnDashboard
-# ShadcnDashboard
-# shadcn-Dashboard
+---
+
+## 📄 License
+
+MIT — free to use, customize, and share.
+
+---
+
+## 🙌 Credits
+
+- [ShadCN](https://ui.shadcn.com)
+- [Lucide Icons](https://lucide.dev)
+- [Vercel Fonts - Geist](https://vercel.com/fonts/geist)
+``` 
+
+
