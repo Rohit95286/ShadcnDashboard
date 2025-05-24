@@ -24,15 +24,6 @@ A modern and responsive admin dashboard built using **Next.js App Router**, **Sh
 
 ---
 
-![image](https://github.com/user-attachments/assets/9d0da842-cf34-45fc-83f4-ae581c7aa509)
-
-![image](https://github.com/user-attachments/assets/45f10625-2a92-4b91-acb5-1f464bf3f03e)
-
-
-![image](https://github.com/user-attachments/assets/9cf2fc78-da1a-4161-84ab-3ba3542e60b7)
-
-
-![image](https://github.com/user-attachments/assets/c99da7d3-5e1a-4737-8a50-0bfc444489a6)
 
 
 ## 🧱 Tech Stack
@@ -48,25 +39,13 @@ A modern and responsive admin dashboard built using **Next.js App Router**, **Sh
 ## 🗂️ Project Structure
 
 ```
-.
-├── app/
-│   └── layout.tsx          # Root layout with NavBar and Sidebar
-│   └── page.tsx            # Main dashboard page
-├── components/
-│   └── ui/baseComponents/
-│       ├── analyticsData.tsx
-│       ├── dasboardCards.tsx
-│       ├── navBar.tsx
-│       ├── post.tsx
-│       ├── sideBar.tsx
-├── data/
-│   └── postData.ts         # Post list data
-├── public/
-│   └── dashboard-summary.png
-│   └── analytics.png
-├── styles/
-│   └── globals.css         # Global styles
-```
+![image](https://github.com/user-attachments/assets/7927c7cc-a60f-4f6e-8933-b2003b2077f0)
+
+
+![image](https://github.com/user-attachments/assets/c3af2ba1-2baf-428d-8995-e0862ed63790)
+
+
+![image](https://github.com/user-attachments/assets/84536f48-f77a-4da3-9def-c64d93a80e3f)
 
 ---
 
